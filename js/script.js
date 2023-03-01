@@ -1,10 +1,7 @@
-// my age
-let birthYear = 2002;
+
 let currentYear = new Date();
 let yr = currentYear.getFullYear();
 
-let age = yr - birthYear;
-document.querySelector(".age").innerText = age;
 document.querySelector(".year").innerText = yr;
 
 let hamburger = $(".hamburger");
@@ -25,3 +22,18 @@ function menuToggle() {
     menuOverlay.toggleClass("active-nav");
     menu.toggleClass("active-nav");
 }
+var dob = new Date("08/24/2002");  
+
+var month_diff = Date.now() - dob.getTime();  
+  
+
+var age_dt = new Date(month_diff);   
+  
+
+var year = age_dt.getUTCFullYear();  
+  
+
+var age = Math.abs(year - 1970);  
+
+
+document.querySelector(".age").innerText = age;
