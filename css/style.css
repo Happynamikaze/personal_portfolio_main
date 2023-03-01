@@ -36,6 +36,7 @@ html,
 body {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 body {
@@ -74,6 +75,12 @@ a:hover {
     z-index: 99;
 
 } */
+.layout-wrapper-custom{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-auto-columns: 100%;
+    min-height: 100%;
+}
 /* Cursor end*/
 .theme_container {
     max-width: 64rem;
@@ -97,10 +104,11 @@ a:hover {
     background-color: var(--theme-red);
     box-shadow: 0px 5px 40px -10px var(--theme-red);
     transition: all 0.3s ease;
+    transform: unset !important;
 }
 
 .theme_button:hover {
-    transform: scale(1.1);
+  scale : 1.1  ;
 }
 
 .text_highlight {

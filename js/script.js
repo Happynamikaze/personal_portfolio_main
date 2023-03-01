@@ -45,8 +45,8 @@ options = {
     "hoverEffect": "pointer-blur",
     "hoverItemMove": false,
     "defaultCursor": false,
-    "outerWidth": 41,
-    "outerHeight": 41,
+    "outerWidth": 35,
+    "outerHeight": 35,
     
   }; 
    magicMouse(options);
