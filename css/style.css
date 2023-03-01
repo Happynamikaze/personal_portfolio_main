@@ -21,6 +21,8 @@
     --font-chivo: 'Chivo', sans-serif;
 }
 
+
+  
 *,
 *::after,
 *::before {
@@ -64,7 +66,15 @@ a {
 a:hover {
     color: var(--theme-white);
 }
+/* Cursor start*/
+/* .magic-hover{
+    z-index: 99;
+}
+.magic-hover__square{
+    z-index: 99;
 
+} */
+/* Cursor end*/
 .theme_container {
     max-width: 64rem;
     margin: auto;
@@ -102,7 +112,7 @@ a:hover {
 .header {
     position: sticky;
     top: 0;
-    z-index: 999;
+    /* z-index: 999; */
     padding: 1rem 3rem;
     background-color: var(--theme-black);
 }

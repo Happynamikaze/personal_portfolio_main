@@ -35,5 +35,18 @@ var year = age_dt.getUTCFullYear();
 
 var age = Math.abs(year - 1970);  
 
+if (document.querySelector(".age")){
 
-document.querySelector(".age").innerText = age;
+    document.querySelector(".age").innerText = age;
+}
+
+options = {
+    "outerStyle": "circle-basic",
+    "hoverEffect": "pointer-blur",
+    "hoverItemMove": false,
+    "defaultCursor": false,
+    "outerWidth": 41,
+    "outerHeight": 41,
+    
+  }; 
+   magicMouse(options);
