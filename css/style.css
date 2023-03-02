@@ -1223,6 +1223,10 @@ footer {
 .sml_hide{
     display: block;
 }
+.skill-heading{
+    background-color: var(--theme-black);
+    
+}
 /* footer styling ends */
 @media  (max-width: 320px){
 
