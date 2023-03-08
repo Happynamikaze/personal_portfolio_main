@@ -51,6 +51,7 @@ options = {
   }; 
    magicMouse(options);
 
+
 //    $(window).on('load', function(){
 //     setTimeout(removeLoader, 2000); //wait for page load PLUS two seconds.
 //   });
